@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rosybrown;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+form
+{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input{
+flex-basis: 80%;
+height: 40px;
+background-color: rgb(191, 169, 169);
+border: none;
+border-radius: 10px;
+
+}
+form button{
+  flex-basis: 20%;
+  background-color: rgb(152, 91, 91);
+  border: none;
+  border-radius: 10px;
+}
+.outerdiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerdiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 50px;
+}
+.outerdiv ul li{
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(122, 57, 57);
+}
+.outerdiv ul li span {
+  position: relative;
+  left: 80%;
+  cursor: pointer;
+  }
+.complete{
+text-decoration: line-through !important;
+color: white !important;
+background-color: rgb(114, 62, 62) !important;
+  }
+.tabsOuter{
+  width: 1170px;
+  margin: auto;
+}
+.tabsOuter ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+.tabsOuter ul li button{
+background-color: navy;
+color: #fff;
+padding: 0.5rem 20px;
+margin-right: 18px;
+font-weight: 600;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+.activeButton{
+  background-color: rgb(168, 45, 45) !important;
+  color: white !important;
+}
